@@ -30,7 +30,7 @@ int* cutSticks(int lengths_size, int *lengths, int *result_size) {
         lengths[i]=lengths[i]-min;
         count++;
         }
-    } 
+    }
     for(i=0;i<n;i++)
     {
         if(lengths[i]==0)
@@ -41,4 +41,6 @@ int* cutSticks(int lengths_size, int *lengths, int *result_size) {
     }
   *result_size=k;
   return arr;
-}
+} 
+
+
