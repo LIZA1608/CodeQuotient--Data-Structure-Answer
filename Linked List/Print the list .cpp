@@ -1,3 +1,4 @@
+
 void forwardPrint(struct Node* head)
 {
 	if(head != NULL){
